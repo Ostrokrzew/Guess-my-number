@@ -1,4 +1,5 @@
-﻿# Kòmpùtr wëbiérô losowò lëczbã z zôkresë òd 1 do 100.
+﻿# Biésów Smãtk
+# Kòmpùtr wëbiérô losowò lëczbã z zôkresë òd 1 do 100.
 # Gracz próbuje jã wëzgôdnąc, a kòmpùter gò jinformùje, czë pòdónô bez niegò lëczba je za wiôlgô, za môłô abò richtich.
 
 import random #jimpòrt mòdułë

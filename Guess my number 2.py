@@ -1,4 +1,5 @@
-﻿# Kòmpùtr zgadiwô Twojã lëczbã
+﻿# Biésów Smãtk
+# Kòmpùtr zgadiwô Twojã lëczbã
 
 import random #jimpòrt mòdułë
 
