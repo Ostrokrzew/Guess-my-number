@@ -2,7 +2,7 @@
 
 import random #jimpòrt mòdułë
 
-print("Witôj w jigrze /"Jakô to lëczba?/"")
+print("Witôj w jigrze \"Jakô to lëczba?\"!")
 print("Wëbiérze dowòlną lëczbã òd 0 do 100.")
 print("Kòmpùtr mdze miôł starã jã wëzdgadnąc jak nôrëchli.")
 print("Żlë lëczba pòdónô bez kòmpùtr je za môłô, wpisze \"too low\"")
@@ -34,6 +34,10 @@ while not number == chosen: #pòwtórziwanié strzélów bez kòmpùtr
         tries = 1
     number = random.randint(a,b) 
     print(number)
-
-print("Kòmpùtr wëzdgôdnął Twojã lëczbã w", tries,"pòdeńscach")
+    if tries >= 10: #warënk przegraniô
+        break
+if tries < 10:
+    print("Kòmpùtr wëzdgôdnął Twojã lëczbã w", tries,"pòdeńscach")
+else:
+    print("Kòmpùtr nie wëzgôdł w 10 próbach. Jes dobëł")
 input("\nWcëskô Enter, żebë skùńczëc.")

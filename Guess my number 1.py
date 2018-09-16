@@ -3,7 +3,7 @@
 
 import random #jimpòrt mòdułë
 
-print("\tWitój w jigrze /"Jakô to lëczba/"!")
+print("\tWitój w jigrze \"Jakô to lëczba\"!")
 print("\nMóm na mëszlë pewną lëczbã z zôkresë òd 1 do 100.")
 print("Spróbùje jã wëzgôdnąc w jak nômiészi lëczbie próbów.\n")
 print("Môsz jejich blós 10!\n")
