@@ -1,6 +1,6 @@
 ﻿# Kòmpùtr zgadiwô Twojã lëczbã
 
-import random #jimpòrt biblioteczi
+import random #jimpòrt mòdułë
 
 print("Witôj w jigrze /"Jakô to lëczba?/"")
 print("Wëbiérze dowòlną lëczbã òd 0 do 100.")
