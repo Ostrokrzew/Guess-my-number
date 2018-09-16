@@ -1,5 +1,5 @@
 ﻿# Biésów Smãtk
-# Kòmpùtr wëbiérô losowò lëczbã z zôkresë òd 1 do 100.
+# kòmpùter wëbiérô losowò lëczbã z zôkresë òd 1 do 100.
 # Gracz próbuje jã wëzgôdnąc, a kòmpùter gò jinformùje, czë pòdónô bez niegò lëczba je za wiôlgô, za môłô abò richtich.
 
 import random #jimpòrt mòdułë
@@ -27,8 +27,8 @@ while guess != number:
         break
 if tries < 10:
     print("Jes wëzgôdł! Ta lëczba to", number)
-    print("Do dobëcé jes brëkòwôł blós", tries, "próbów!\n")
+    print("Do dobëcégò jes brëkòwôł blós", tries, "próbów!\n")
 else:
     print("Môsz przegróné, nie wëzgôdł jes w 10 próbach.")    
   
-input("\nWcëskô Enter, żebë skùńczëc.")
+input("\nWcëskôj Enter, żebë skùńczëc.")

@@ -1,24 +1,25 @@
 ﻿# Biésów Smãtk
-# Kòmpùtr zgadiwô Twojã lëczbã
+# kòmpùter zgadiwô Twojã lëczbã, wëbróną z zôkresë òd 0 do 100.
 
 import random #jimpòrt mòdułë
 
 print("Witôj w jigrze \"Jakô to lëczba?\"!")
 print("Wëbiérze dowòlną lëczbã òd 0 do 100.")
-print("Kòmpùtr mdze miôł starã jã wëzdgadnąc jak nôrëchli.")
-print("Żlë lëczba pòdónô bez kòmpùtr je za môłô, wpisze \"too low\"")
-print("Żlë lëczba pòdónô bez kòmpùtr je za wiôlgô, wpisze \"too high\"")
-print("\nPòdô swojã lëczbã")
+print("Kòmpùter mdze miôł starã jã wëzdgadnąc jak nôrëchli.")
+print("Mô leno 10 próbów.")
+print("Żlë lëczba pòdónô bez kòmpùter je za môłô, wpisze \"too low\"")
+print("Żlë lëczba pòdónô bez kòmpùter je za wiôlgô, wpisze \"too high\"")
+print("\nPòdôj swojã lëczbã")
 # nôdpisë dlô gracza
 a = 1
 b = 100 #zôkres wëzgôdczi
 chosen = int(input()) # pòbranié lëczbë òd gracza
 choose = ""
 tries = 1
-number = random.randint(a,b) #pierszi strzél kòmpùtra
+number = random.randint(a,b) #pierszi strzél kòmpùtera
 print()
 print(number)
-while not number == chosen: #pòwtórziwanié strzélów bez kòmpùtr
+while not number == chosen: #pòwtórziwanié strzélów bez kòmpùter
     choose = input()
     if choose == ("too low"):
         a = number + 1
@@ -29,7 +30,7 @@ while not number == chosen: #pòwtórziwanié strzélów bez kòmpùtr
         continue
     tries += 1
     if b < a: #warënk pòwtórzeniô, jeżlë chcesz oszëkac
-        print("Jes próbòwôł òcëganic kòmpùtr, zaczinô òd zôczątkù.\n")
+        print("Jes próbòwôł òcëganic kòmpùter, zaczinô òn òd zôczątkù.\n")
         a = 1
         b = 100
         tries = 1
@@ -38,7 +39,7 @@ while not number == chosen: #pòwtórziwanié strzélów bez kòmpùtr
     if tries >= 10: #warënk przegraniô
         break
 if tries < 10:
-    print("Kòmpùtr wëzdgôdnął Twojã lëczbã w", tries,"pòdeńscach")
+    print("Kòmpùter wëzdgôdnął Twojã lëczbã w", tries,"pòdeńscach")
 else:
-    print("Kòmpùtr nie wëzgôdł w 10 próbach. Jes dobëł")
-input("\nWcëskô Enter, żebë skùńczëc.")
+    print("Kòmpùter nie wëzgôdł w 10 próbach. Jes dobëł")
+input("\nWcëskôj Enter, żebë skùńczëc.")
