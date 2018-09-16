@@ -16,7 +16,7 @@ b = 100 #zôkres wëzgôdczi
 chosen = int(input()) # pòbranié lëczbë òd gracza
 choose = ""
 tries = 1
-number = random.randint(a,b) #pierszi strzél kòmpùtera
+number = random.randint(a,b) #pierszi strzél kòmpùtra
 print()
 print(number)
 while not number == chosen: #pòwtórziwanié strzélów bez kòmpùter
